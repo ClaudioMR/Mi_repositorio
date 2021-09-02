@@ -1,0 +1,7 @@
+@import url(../Estilos/Styles.css);
+@import url(./_normalize.scss);
+nav img {
+  width: 500px;
+  height: 350px;
+  padding: 0;
+  margin: 4rem auto auto 4rem; }
