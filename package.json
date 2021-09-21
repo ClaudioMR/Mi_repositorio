@@ -1,19 +1,27 @@
 {
-  "name": "mi-proyecto",
+  "name": "c",
   "version": "1.0.0",
-  "description": "",
+  "description": "��#\u0000 \u0000M\u0000i\u0000_\u0000r\u0000e\u0000p\u0000o\u0000s\u0000i\u0000t\u0000o\u0000r\u0000i\u0000o\u0000\r\u0000 \u0000",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch-sass": "nodemon -e scss -x \"npm run build-sass\"",
     "build-sass": "node-sass --include-patch scss scss/index.scss css/index.css"
-  }, 
-  
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "node-sass": "^6.0.1",
     "nodemon": "^2.0.12"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ClaudioMR/Mi_repositorio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ClaudioMR/Mi_repositorio/issues"
+  },
+  "homepage": "https://github.com/ClaudioMR/Mi_repositorio#readme"
 }

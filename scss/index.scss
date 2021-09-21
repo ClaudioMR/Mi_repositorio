@@ -1,13 +1,30 @@
 @import url(../Estilos/Styles.css);
 @import url(./_normalize.scss);
 
-nav{ 
+main { 
     img {
-    width: 500px;
-    height: 350px;
-    padding: 0;
-    margin: 4rem auto auto 4rem;
+    width: 100%;
+    height: 80%;
+    max-width: 600px;
+    min-width: 220px;
+    padding: auto;
+    
 }
 
+}
+
+h3{
+    color: #D2C2EA;
+    font-size: 4rem;
+
+}
+
+main{
+    justify-items: center;
+    align-content: center;
+        article p{
+            font-size: 3rem;
+
+        }
 }
 

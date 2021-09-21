@@ -1,4 +1,3 @@
-
 /* ESTILOS GLOBALES*/
 
 body{
@@ -10,25 +9,18 @@ body{
 }
 
 
-/* UTILS*/
-
-.grids{
-    display: grid;
-}
-
-.flex-row{
+/* UTILIDADES*/
+.grids {
+    display: grid; }
+  
+.flex-row {
     display: flex;
-    flex-direction: row;
- 
-}
-
-.flex-column{
+    flex-direction: row; }
+  
+.flex-column {
     display: flex;
-    flex-direction: column;
-
-}
-
-
+    flex-direction: column; }
+  
 #index__header{
     justify-content: space-around;
     justify-items: stretch;
@@ -38,7 +30,7 @@ body{
     height: 20vh; 
 }
 
-#index__header--titulo {
+#index__header--titulo{
     color: #D2C2EA;
     font-size: 1em;
     font-style: italic;
@@ -49,7 +41,8 @@ body{
 #index__main{
 
 flex-wrap: nowrap;
-justify-content: space-evenly;
+justify-content: space-around;
+justify-items: self-start ;
 }
 
 
@@ -59,14 +52,16 @@ background-image: linear-gradient( whitesmoke,#FFDED6 );
 text-align: center;
 font-size: 4em;
 padding: 3rem;
-width: 310px;
+width: 95%;
 height: 68vh;
 display: flex;
 flex-direction: column;
 justify-content: space-between;
-align-items: flex-end;
+align-items: center;
 list-style-type: none;
 }
+
+
 
 .footer__contacto{
     height: 10vh;
@@ -94,4 +89,18 @@ li:hover {
     
     color: #D2C2EA ;
     font-style: italic;
+    text-decoration: none;
     }
+
+    @media (max-width: 846px)
+    {
+        #index__header--titulo {
+            color: #D2C2EA;
+            font-size: 0.5em;
+            font-style: italic;
+            text-align: right;
+            font-family: 'Alex Brush', cursive; }
+             
+
+        }
+    
