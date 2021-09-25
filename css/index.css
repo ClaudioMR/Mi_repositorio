@@ -1,8 +1,9 @@
+@charset "UTF-8";
 @import url(../Estilos/Styles.css);
 @import url(./_normalize.scss);
 h3 {
   color: #D2C2EA;
-  font-size: 4rem; }
+  font-size: 3rem; }
 
 main {
   justify-items: center;
@@ -13,3 +14,34 @@ main {
 nav img {
   width: 32em;
   height: 21em; }
+
+#Proyectos__main {
+  width: auto;
+  height: auto;
+  min-width: 360px;
+  justify-items: center;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  align-content: center;
+  align-items: center; }
+
+#galería__main {
+  margin-left: 10rem;
+  margin-right: 10rem; }
+
+.galería__main--container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  grid-gap: 1em; }
+
+#galería__main--título {
+  justify-content: center; }
+
+article img {
+  width: 100%;
+  height: 30rem; }
+
+@media (max-widht: 1350px) {
+  #galería__main {
+    margin-left: 40rem;
+    margin-right: 40rem; } }
