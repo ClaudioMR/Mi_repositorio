@@ -3,13 +3,15 @@
 @import url(./_normalize.scss);
 h3 {
   color: #D2C2EA;
-  font-size: 3rem; }
+  font-size: 4rem; }
 
 main {
   justify-items: center;
-  align-content: center; }
+  align-content: center;
+  min-height: 60vh; }
   main article p {
-    font-size: 3rem; }
+    font-size: 3rem;
+    color: #96999C; }
 
 nav img {
   width: 32em;
@@ -40,6 +42,15 @@ nav img {
 article img {
   width: 100%;
   height: 30rem; }
+
+article img:hover {
+  transform: skew(1deg, 1deg);
+  transition: filter 0.3 ease-in; }
+
+#Sobre-mi__main {
+  margin-left: 10rem;
+  margin-right: 10rem;
+  align-items: center; }
 
 @media (max-widht: 1350px) {
   #galería__main {
