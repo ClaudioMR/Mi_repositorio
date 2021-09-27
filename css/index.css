@@ -1,6 +1,131 @@
 @charset "UTF-8";
-@import url(../Estilos/Styles.css);
+
 @import url(./_normalize.scss);
+
+/* ESTILOS GLOBALES*/
+
+body{
+  font-size: 62,5%;
+  background-color:#FFDED6;
+  background-image: linear-gradient( whitesmoke,#FFDED6 );
+  font-family: 'Alex Brush', cursive;
+  
+}
+
+
+/* UTILIDADES*/
+.grids {
+  display: grid; }
+
+.flex-row {
+  display: flex;
+  flex-direction: row; }
+
+.flex-column {
+  display: flex;
+  flex-direction: column; }
+
+#index__header{
+  justify-content: space-around;
+  justify-items: stretch;
+  background-color: whitesmoke;
+  align-items: center;
+  font-size: 8.5rem;   
+  height: 20vh; 
+}
+
+#index__header--titulo{
+  color: #D2C2EA;
+  font-size: 1em;
+  font-style: italic;
+  text-align: right;
+  font-family: 'Alex Brush', cursive;
+}
+
+#index__main{
+
+flex-wrap: wrap;
+justify-content: space-around;
+justify-items: self-start ;
+align-items: center;
+}
+
+
+
+#index__main--menulateral{
+background-image: linear-gradient( whitesmoke,#FFDED6 );
+text-align: center;
+font-size: 4em;
+padding: 3rem;
+width: 95%;
+height: 68vh;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+list-style-type: none;
+}
+
+
+.footer__contacto{
+  height: 10vh;
+  font-size: xx-large;
+  font-weight: bold;
+  background-color: #B8D0EB;
+  color: #96999C;
+  justify-content:space-evenly;
+  align-items:center;
+  align-content: flex-end;
+  width: 100%;
+  margin-bottom: 0;
+  min-width: 368px;
+
+}
+.footer__copyright{ 
+  background-color:#96999C ;
+  justify-content: center;
+  min-width: 368px;
+  
+}
+
+
+
+header img{
+  padding-top: 2rem;
+}
+
+li:hover {
+  
+  color: #D2C2EA ;
+  font-style: italic;
+  text-decoration: none;
+  }
+
+  @media (max-width: 846px)
+  {
+      #index__header--titulo {
+          color: #D2C2EA;
+          font-size: 0.5em;
+          font-style: italic;
+          text-align: right;
+          font-family: 'Alex Brush', cursive; }
+           
+  
+      .footer__contacto {
+          height: 10vh;
+          font-size: 1.5rem;
+          font-weight: bold;
+          background-color: #B8D0EB;
+          color: #96999C;
+          justify-content:space-evenly;
+          align-items:center;
+          align-content: flex-end;
+          min-height: auto;
+  }
+
+      }
+  
+
 h3 {
   color: #D2C2EA;
   font-size: 4rem; }
